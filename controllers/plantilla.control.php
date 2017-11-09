@@ -8,11 +8,7 @@
 
   function run(){
     //addCssRef("public/css/home.css");
-    $datosPersonales = array(
-      "nombre" => "Orlando J Betancourth",
-      "correo"=> "obetancourthunicah@gmail.com"
-    );
-    renderizar("prdbacklog", $datosPersonales);
+    renderizar("prdbacklog",array());
   }
 
 
